@@ -8,7 +8,7 @@ from flask import Flask, render_template, request, redirect, url_for, session, j
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import func, text
 
-from commons import R, randomcolor
+from .commons import R, randomcolor
 
 
 # get the project path
